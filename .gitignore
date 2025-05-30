@@ -1,0 +1,26 @@
+# Specifies intentionally untracked files that Git should ignore.
+# For more details, see https://git-scm.com/docs/gitignore.
+#
+# The directory Angular builds to.
+/dist/
+/tmp/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled output
+/out-tsc/
+
+# Node packages
+/node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other
+/.angular/cache
